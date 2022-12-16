@@ -9,7 +9,7 @@ $lines = explode(LF,trim(file_get_contents(__DIR__.'/inputs/input15.txt'),LF));
 $map = [];
 $sensors = [];
 
-$threshold = 10; //2000000; // set this to 2000000 for full test
+$threshold = 2000000; 
 
 foreach ($lines as $idx=>$line) {
 	// Sensor at x=2, y=18: closest beacon is at x=-2, y=15
